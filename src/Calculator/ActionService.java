@@ -1,6 +1,6 @@
 package Calculator;
 
-public class ActionService {//proverich
+public class ActionService {// proverka
     public static String calculate(Number first, Number second, String action) throws Exception {
 
         int result;
