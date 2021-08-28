@@ -16,6 +16,10 @@ public class NumberService {
         romanString.put(50, "L");
         romanString.put(90, "XC");
         romanString.put(100, "C");
+        romanString.put(-1, "В римской системе нет отрицательных чисел") ;
+        romanString.put(-4, "В римской системе нет отрицательных чисел") ;
+        romanString.put(-5, "В римской системе нет отрицательных чисел") ;
+        romanString.put(-9, "В римской системе нет отрицательных чисел") ;
     }
 
     static Number parseAndValidate(String symbol) throws Exception {
